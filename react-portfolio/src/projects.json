@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "title": "Slippery Slopes",
+        "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/slippery-slopes.png",
+        "repolink": "https://github.com/jamesjtuckbc/Slippery-Slopes",
+        "sitelink": "https://jamesjtuckbc.github.io/Slippery-Slopes/"
+
+    },
+    {
+        "id": 2,
+        "title": "Weather Dashboard",
+        "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/weather-dashboard.png",
+        "repolink": "https://github.com/jamesjtuckbc/Tuck-Weather-Dashboard",
+        "sitelink": "https://jamesjtuckbc.github.io/Tuck-Weather-Dashboard/"
+
+    },
+    {
+        "id": 3,
+        "title": "Work Day Scheduler",
+        "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/WorkDayScheduler.png",
+        "repolink": "https://github.com/jamesjtuckbc/Tuck-Work-Day-Scheduler",
+        "sitelink": "https://jamesjtuckbc.github.io/Tuck-Work-Day-Scheduler/"
+
+    },
+    {
+        "id": 4,
+        "title": "Team Template Engine",
+        "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/Team-Template-Engine.png",
+        "repolink": "https://github.com/jamesjtuckbc/Tuck-Template-Engine"
+
+    },
+    {
+        "id": 5,
+        "title": "E-Commerce Back End",
+        "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/e-commerce.gif",
+        "repolink": "https://github.com/jamesjtuckbc/Tuck-E_Commerce-Back-End"
+
+    },
+    {
+        "id": 6,
+        "title": "Macrame Madness",
+        "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/marame-madness.png",
+        "repolink": "https://github.com/jamesjtuckbc/The-Best-Around-Project",
+        "sitelink": "https://the-best-around-project.herokuapp.com/"
+
+    }
+]
