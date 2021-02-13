@@ -4,7 +4,7 @@ import { Col } from 'react-bootstrap';
 export default function ProjectCard(props) {
     if (!props.sitelink) {
         return (
-            <Col sm={12} md={12} lg={6} className='card border-0 notranslate'>
+            <Col sm={12} md={12} lg={6} className='card border-0'>
                 <img
                     src={props.imageSrc}
                     alt={props.title}
@@ -26,7 +26,7 @@ export default function ProjectCard(props) {
         )
     } else {
         return (
-            <Col sm={12} md={12} lg={6} className='card border-0 notranslate'>
+            <Col sm={12} md={12} lg={6} className='card border-0'>
                 <img
                     src={props.imageSrc}
                     alt={props.title}
