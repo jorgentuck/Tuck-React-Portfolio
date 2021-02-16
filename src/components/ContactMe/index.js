@@ -72,6 +72,7 @@ export default function ContactMe() {
                                 <Form.Control
                                 type='text'
                                 placeholder='Name'
+                                name='Name'
                                 onChange={(e) => setFormState({ ...formState, name:e.target.value})}
                                 />
                             </Row>
@@ -79,6 +80,7 @@ export default function ContactMe() {
                                 <Form.Control
                                 type='email'
                                 placeholder='Email'
+                                name='Email'
                                 onChange={(e) => setFormState({ ...formState, email:e.target.value})}
                                 />
                             </Row>
@@ -86,6 +88,7 @@ export default function ContactMe() {
                                 <Form.Control
                                 as='textarea'
                                 placeholder='Message'
+                                name='Message'
                                 rows={3}
                                 onChange={(e) => setFormState({ ...formState, message:e.target.value})}
                                 />
