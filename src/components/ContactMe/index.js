@@ -4,8 +4,8 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 const encode = (data) => {
     return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
+        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+        .join('&');
   };
 
 export default function ContactMe() {
@@ -14,15 +14,18 @@ export default function ContactMe() {
         name: '',
         email: '',
         message: ''
-    })
+    });
 
     const handleSubmit = e => {
-        fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: encode({ "form-name": "contact", ...formState })
+        console.log('name:', formState.name);
+        console.log('email:', formState.email);
+        console.log('message:', formState.message);
+        fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: encode({ 'form-name': 'contact', ...formState })
         })
-          .then(() => alert("Success!"))
+          .then(() => alert('Success!'))
           .catch(error => alert(error));
   
         e.preventDefault();
@@ -66,13 +69,13 @@ export default function ContactMe() {
             </Row>
             <Row>
                 <Col xs={8}>
-                    <Form onSubmit={handleSubmit} >
+                    <Form onSubmit={handleSubmit}>
                         <Form.Group controlId='contactMeForm'>
                             <Row className='mb-3'>
                                 <Form.Control
                                 type='text'
                                 placeholder='Name'
-                                name='Name'
+                                name='name'
                                 onChange={(e) => setFormState({ ...formState, name:e.target.value})}
                                 />
                             </Row>
@@ -80,7 +83,7 @@ export default function ContactMe() {
                                 <Form.Control
                                 type='email'
                                 placeholder='Email'
-                                name='Email'
+                                name='email'
                                 onChange={(e) => setFormState({ ...formState, email:e.target.value})}
                                 />
                             </Row>
@@ -88,7 +91,7 @@ export default function ContactMe() {
                                 <Form.Control
                                 as='textarea'
                                 placeholder='Message'
-                                name='Message'
+                                name='message'
                                 rows={3}
                                 onChange={(e) => setFormState({ ...formState, message:e.target.value})}
                                 />
