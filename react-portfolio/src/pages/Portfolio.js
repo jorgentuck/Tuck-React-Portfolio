@@ -1,13 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { H1, Hr } from '../components/Layout';
+import Jumbotron from '../components/Jumbotron';
 import ProjectCard from '../components/ProjectCard';
 import projects from '../projects.json';
 
 export default function Portfolio() {
   return (
     <Col sm={12} md={10} lg={8}>
-      <div className="jumbotron bg-white">
+      <Jumbotron>
         <H1>Portfolio</H1>
         <Hr />
         <Container fluid rowHeight>
@@ -25,7 +26,7 @@ export default function Portfolio() {
             })}
           </Row>
         </Container>
-      </div>
+      </Jumbotron>
     </Col>
   )
 }

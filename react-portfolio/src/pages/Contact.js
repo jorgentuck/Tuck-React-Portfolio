@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import { H1, Hr } from '../components/Layout';
 import Jumbotron from '../components/Jumbotron';
 import ContactMe from '../components/ContactMe';
@@ -10,11 +10,7 @@ const Contact = () => {
             <Jumbotron>
                 <H1>Contact</H1>
                 <Hr />
-                <Container>
-                    <Row>
-                        <ContactMe />
-                    </Row>
-                </Container>
+                <ContactMe />
             </Jumbotron>
         </Col>
     )
