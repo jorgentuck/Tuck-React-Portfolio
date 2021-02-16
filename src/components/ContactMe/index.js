@@ -1,7 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
+
+const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  };
+
 export default function ContactMe() {
+
+    const [formState, setFormState] = useState({
+        name: '',
+        email: '',
+        message: ''
+    })
+
+    const handleSubmit = e => {
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", ...formState })
+        })
+          .then(() => alert("Success!"))
+          .catch(error => alert(error));
+  
+        e.preventDefault();
+      };
     return (
         <Container fluid>
             <Row>
@@ -41,16 +66,29 @@ export default function ContactMe() {
             </Row>
             <Row>
                 <Col xs={8}>
-                    <Form method='POST' data-netlify='true' >
+                    <Form onSubmit={handleSubmit} >
                         <Form.Group controlId='contactMeForm'>
                             <Row className='mb-3'>
-                                <Form.Control type='text' placeholder='Name' />
+                                <Form.Control
+                                type='text'
+                                placeholder='Name'
+                                onChange={(e) => setFormState({ ...formState, name:e.target.value})}
+                                />
                             </Row>
                             <Row className='mb-3'>
-                                <Form.Control type='email' placeholder='Email' />
+                                <Form.Control
+                                type='email'
+                                placeholder='Email'
+                                onChange={(e) => setFormState({ ...formState, email:e.target.value})}
+                                />
                             </Row>
                             <Row className='mb-3'>
-                                <Form.Control as='textarea' placeholder='Message' rows={3} />
+                                <Form.Control
+                                as='textarea'
+                                placeholder='Message'
+                                rows={3}
+                                onChange={(e) => setFormState({ ...formState, message:e.target.value})}
+                                />
                             </Row>
                             <Button
                                 variant='dark' type='submit'
