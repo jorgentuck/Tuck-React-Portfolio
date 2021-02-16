@@ -17,9 +17,6 @@ export default function ContactMe() {
     });
 
     const handleSubmit = e => {
-        console.log('name:', formState.name);
-        console.log('email:', formState.email);
-        console.log('message:', formState.message);
         fetch('/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
