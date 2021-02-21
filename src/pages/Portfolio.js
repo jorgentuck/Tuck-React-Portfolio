@@ -13,6 +13,10 @@ export default function Portfolio() {
         <Hr />
         <Container fluid rowHeight>
           <Row>
+            {/* <Col xs={2}>
+              <p>some filtering options</p>
+            </Col> */}
+
             {projects.map(pro => {
               return (
                 <ProjectCard
@@ -21,9 +25,11 @@ export default function Portfolio() {
                   imageSrc={pro.imageSrc}
                   repolink={pro.repolink}
                   sitelink={pro.sitelink}
+                  desc={pro.desc}
                 />
               )
             })}
+
           </Row>
         </Container>
       </Jumbotron>

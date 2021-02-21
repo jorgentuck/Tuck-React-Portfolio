@@ -1,170 +1,191 @@
 [
-{
+  {
     "id": 1,
-     "title": "StudentBio",
-     "repoName": "StudentBio",
-     "imageSrc": "",
-     "repolink": "https://github.com/jamesjtuckbc/StudentBio",
-     "sitelink": "https://jamesjtuckbc.github.io/StudentBio/"
-},
-{
-"id": 2,
- "title": "Portfolio",
- "repoName": "Portfolio",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Portfolio",
- "sitelink": "https://jamesjtuckbc.github.io/Portfolio/"
-},
-{
-"id": 3,
- "title": "Tuck-Horiseon",
- "repoName": "Tuck-Horiseon",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Horiseon",
- "sitelink": "https://jamesjtuckbc.github.io/Tuck-Horiseon/"
-},
-{
-"id": 4,
- "title": "passwordGen-Tuck",
- "repoName": "passwordGen-Tuck",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/passwordGen-Tuck",
- "sitelink": "https://jamesjtuckbc.github.io/passwordGen-Tuck/"
-},
-{
-"id": 5,
- "title": "Tuck-CodeQuiz",
- "repoName": "Tuck-CodeQuiz",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-CodeQuiz",
- "sitelink": "https://jamesjtuckbc.github.io/Tuck-CodeQuiz/"
-},
-{
-"id": 6,
- "title": "Weather Dashboard",
- "repoName": "Tuck-Weather-Dashboard",
- "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/weather-dashboard.png",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Weather-Dashboard",
- "sitelink": "https://jamesjtuckbc.github.io/Tuck-Weather-Dashboard/"
-},
-{
-"id": 7,
- "title": "Work Day Scheduler",
- "repoName": "Tuck-Work-Day-Scheduler",
- "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/WorkDayScheduler.png",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Work-Day-Scheduler",
- "sitelink": "https://jamesjtuckbc.github.io/Tuck-Work-Day-Scheduler/"
-},
-{
-"id": 8,
- "title": "Slippery Slopes",
- "repoName": "Slippery-Slopes",
- "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/slippery-slopes.png",
- "repolink": "https://github.com/jamesjtuckbc/Slippery-Slopes",
- "sitelink": "https://jamesjtuckbc.github.io/Slippery-Slopes/"
-},
-{
-"id": 9,
- "title": "Tuck-ReadMe-Gen",
- "repoName": "Tuck-ReadMe-Gen",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-ReadMe-Gen",
- "sitelink": ""
-},
-{
-"id": 10,
- "title": "Team Template Engine",
- "repoName": "Tuck-Template-Engine",
- "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/Team-Template-Engine.png",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Template-Engine",
- "sitelink": ""
-},
-{
-"id": 11,
- "title": "Tuck-Note-Taker",
- "repoName": "Tuck-Note-Taker",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Note-Taker",
- "sitelink": "https://sheltered-lake-35979.herokuapp.com/"
-},
-{
-"id": 12,
- "title": "Tuck-Employee-Tracker",
- "repoName": "Tuck-Employee-Tracker",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Employee-Tracker",
- "sitelink": ""
-},
-{
-"id": 13,
- "title": "E-Commerce Back End",
- "repoName": "Tuck-E_Commerce-Back-End",
- "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/e-commerce.gif",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-E_Commerce-Back-End",
- "sitelink": ""
-},
-{
-"id": 14,
- "title": "Tuck-Portfolio",
- "repoName": "Tuck-Portfolio",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Portfolio",
- "sitelink": "https://jamesjtuckbc.github.io/Tuck-Portfolio/"
-},
-{
-"id": 15,
- "title": "Macrame Madness",
- "repoName": "The-Best-Around-Project",
- "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/marame-madness.png",
- "repolink": "https://github.com/jamesjtuckbc/The-Best-Around-Project",
- "sitelink": "https://the-best-around-project.herokuapp.com/"
-},
-{
-"id": 16,
- "title": "Tuck-Tech-Blog",
- "repoName": "Tuck-Tech-Blog",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Tech-Blog",
- "sitelink": "https://tuck-tech-blog.herokuapp.com/"
-},
-{
-"id": 17,
- "title": "Tuck-Workout-Tracker",
- "repoName": "Tuck-Workout-Tracker",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Workout-Tracker",
- "sitelink": "https://pure-basin-12390.herokuapp.com/"
-},
-{
-"id": 18,
- "title": "Tuck-Employee-Directory",
- "repoName": "Tuck-Employee-Directory",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-Employee-Directory",
- "sitelink": "https://jamesjtuckbc.github.io/Tuck-Employee-Directory/"
-},
-{
-"id": 19,
- "title": "ticket-template",
- "repoName": "ticket-template",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/ticket-template",
- "sitelink": "https://jamesjtuckbc.github.io/ticket-template/"
-},
-{
-"id": 20,
- "title": "Tuck-React-Portfolio",
- "repoName": "Tuck-React-Portfolio",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/Tuck-React-Portfolio",
- "sitelink": "https://www.jorgentuck.com"
-},
-{
-"id": 21,
- "title": "ticket-template-react",
- "repoName": "ticket-template-react",
- "imageSrc": "",
- "repolink": "https://github.com/jamesjtuckbc/ticket-template-react",
- "sitelink": ""
-}
+    "title": "StudentBio",
+    "repoName": "StudentBio",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/StudentBio",
+    "sitelink": "https://jamesjtuckbc.github.io/StudentBio/",
+    "desc": ""
+  },
+  {
+    "id": 2,
+    "title": "Portfolio",
+    "repoName": "Portfolio",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Portfolio",
+    "sitelink": "https://jamesjtuckbc.github.io/Portfolio/",
+    "desc": ""
+  },
+  {
+    "id": 3,
+    "title": "Tuck-Horiseon",
+    "repoName": "Tuck-Horiseon",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Horiseon",
+    "sitelink": "https://jamesjtuckbc.github.io/Tuck-Horiseon/",
+    "desc": ""
+  },
+  {
+    "id": 4,
+    "title": "passwordGen-Tuck",
+    "repoName": "passwordGen-Tuck",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/passwordGen-Tuck",
+    "sitelink": "https://jamesjtuckbc.github.io/passwordGen-Tuck/",
+    "desc": ""
+  },
+  {
+    "id": 5,
+    "title": "Tuck-CodeQuiz",
+    "repoName": "Tuck-CodeQuiz",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-CodeQuiz",
+    "sitelink": "https://jamesjtuckbc.github.io/Tuck-CodeQuiz/",
+    "desc": ""
+  },
+  {
+    "id": 6,
+    "title": "Weather Dashboard",
+    "repoName": "Tuck-Weather-Dashboard",
+    "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/weather-dashboard.png",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Weather-Dashboard",
+    "sitelink": "https://jamesjtuckbc.github.io/Tuck-Weather-Dashboard/",
+    "desc": ""
+  },
+  {
+    "id": 7,
+    "title": "Work Day Scheduler",
+    "repoName": "Tuck-Work-Day-Scheduler",
+    "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/WorkDayScheduler.png",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Work-Day-Scheduler",
+    "sitelink": "https://jamesjtuckbc.github.io/Tuck-Work-Day-Scheduler/",
+    "desc": ""
+  },
+  {
+    "id": 8,
+    "title": "Slippery Slopes",
+    "repoName": "Slippery-Slopes",
+    "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/slippery-slopes.png",
+    "repolink": "https://github.com/jamesjtuckbc/Slippery-Slopes",
+    "sitelink": "https://jamesjtuckbc.github.io/Slippery-Slopes/",
+    "desc": ""
+  },
+  {
+    "id": 9,
+    "title": "Tuck-ReadMe-Gen",
+    "repoName": "Tuck-ReadMe-Gen",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-ReadMe-Gen",
+    "sitelink": "",
+    "desc": ""
+  },
+  {
+    "id": 10,
+    "title": "Team Template Engine",
+    "repoName": "Tuck-Template-Engine",
+    "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/Team-Template-Engine.png",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Template-Engine",
+    "sitelink": "",
+    "desc": ""
+  },
+  {
+    "id": 11,
+    "title": "Tuck-Note-Taker",
+    "repoName": "Tuck-Note-Taker",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Note-Taker",
+    "sitelink": "https://sheltered-lake-35979.herokuapp.com/",
+    "desc": ""
+  },
+  {
+    "id": 12,
+    "title": "Tuck-Employee-Tracker",
+    "repoName": "Tuck-Employee-Tracker",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Employee-Tracker",
+    "sitelink": "",
+    "desc": ""
+  },
+  {
+    "id": 13,
+    "title": "E-Commerce Back End",
+    "repoName": "Tuck-E_Commerce-Back-End",
+    "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/e-commerce.gif",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-E_Commerce-Back-End",
+    "sitelink": "",
+    "desc": ""
+  },
+  {
+    "id": 14,
+    "title": "Tuck-Portfolio",
+    "repoName": "Tuck-Portfolio",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Portfolio",
+    "sitelink": "https://jamesjtuckbc.github.io/Tuck-Portfolio/",
+    "desc": ""
+  },
+  {
+    "id": 15,
+    "title": "Macrame Madness",
+    "repoName": "The-Best-Around-Project",
+    "imageSrc": "https://tuck-portfolio.s3-us-west-2.amazonaws.com/marame-madness.png",
+    "repolink": "https://github.com/jamesjtuckbc/The-Best-Around-Project",
+    "sitelink": "https://the-best-around-project.herokuapp.com/",
+    "desc": ""
+  },
+  {
+    "id": 16,
+    "title": "Tuck-Tech-Blog",
+    "repoName": "Tuck-Tech-Blog",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Tech-Blog",
+    "sitelink": "https://tuck-tech-blog.herokuapp.com/",
+    "desc": ""
+  },
+  {
+    "id": 17,
+    "title": "Tuck-Workout-Tracker",
+    "repoName": "Tuck-Workout-Tracker",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Workout-Tracker",
+    "sitelink": "https://pure-basin-12390.herokuapp.com/",
+    "desc": ""
+  },
+  {
+    "id": 18,
+    "title": "Tuck-Employee-Directory",
+    "repoName": "Tuck-Employee-Directory",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-Employee-Directory",
+    "sitelink": "https://jamesjtuckbc.github.io/Tuck-Employee-Directory/",
+    "desc": ""
+  },
+  {
+    "id": 19,
+    "title": "ticket-template",
+    "repoName": "ticket-template",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/ticket-template",
+    "sitelink": "https://jamesjtuckbc.github.io/ticket-template/",
+    "desc": ""
+  },
+  {
+    "id": 20,
+    "title": "Tuck-React-Portfolio",
+    "repoName": "Tuck-React-Portfolio",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/Tuck-React-Portfolio",
+    "sitelink": "https://www.jorgentuck.com",
+    "desc": ""
+  },
+  {
+    "id": 21,
+    "title": "ticket-template-react",
+    "repoName": "ticket-template-react",
+    "imageSrc": "",
+    "repolink": "https://github.com/jamesjtuckbc/ticket-template-react",
+    "sitelink": "",
+    "desc": ""
+  }
 ]
