@@ -53,7 +53,7 @@ export default function AboutMe() {
         {/* <div className="collapse" id="collapseResume"> */}
         <Accordion.Collapse eventKey="0">
           <object
-            data={process.env.PUBLIC_URL + "docs/JorgenResume.pdf"}
+            data={process.env.PUBLIC_URL + "docs/jorgen_resume.pdf"}
             type="application/pdf"
             width="100%"
             height="800px"
@@ -61,7 +61,7 @@ export default function AboutMe() {
             <p>
               It appears you don't have a PDF plugin for this browser. No
               biggie... you can
-                <a href={process.env.PUBLIC_URL + "docs/JorgenResume.pdf"}
+                <a href={process.env.PUBLIC_URL + "docs/jorgen_resume.pdf"}
               > click here to download the PDF file.</a
               >
             </p>
