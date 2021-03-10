@@ -4,7 +4,7 @@ import { withRouter } from 'react-router';
 
 function Navigation({ location }) {
     return (
-        <Navbar bg='light' expand='md' activeKey={location.pathname}>
+        <Navbar bg='light' expand='md'>
             <Navbar.Brand href='/'>Jorgen Tuck</Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse className='justify-content-end' id='basic-navbar-nav'>

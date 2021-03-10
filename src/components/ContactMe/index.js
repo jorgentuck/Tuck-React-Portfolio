@@ -39,8 +39,8 @@ export default function ContactMe() {
             <Row>
                 <h5>
                     Email: <a
-                        href='mailto:Jorgen@JorgenTuck.com'
-                    >Jorgen@JorgenTuck.com</a>
+                        href='mailto:Contact@JorgenTuck.com'
+                    >Contact@JorgenTuck.com</a>
                 </h5>
             </Row>
             <Row>

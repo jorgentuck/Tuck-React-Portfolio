@@ -6,18 +6,19 @@ import ProjectCard from '../components/ProjectCard';
 import projects from '../projects.json';
 
 export default function Portfolio() {
+  const displayProjects = projects.filter(pro => pro.show);
   return (
     <Col sm={12} md={10} lg={8}>
       <Jumbotron>
         <H1>Portfolio</H1>
         <Hr />
-        <Container fluid rowHeight>
+        <Container fluid>
           <Row>
             {/* <Col xs={2}>
               <p>some filtering options</p>
             </Col> */}
 
-            {projects.map(pro => {
+            {displayProjects.reverse().map(pro => {
               return (
                 <ProjectCard
                   key={pro.id}
