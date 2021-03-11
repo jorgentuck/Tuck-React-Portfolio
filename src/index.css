@@ -42,7 +42,7 @@ main {
 .hero {
 
   background-image: url("https://tuck-portfolio.s3-us-west-2.amazonaws.com/hero-night.jpg");
-  height: 100vh;
+  height: calc(100vh - 60px);
   width: 100%;
 
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://tuck-portfolio.s3-us-west-2.amazonaws.com/hero-night.jpg"); */
