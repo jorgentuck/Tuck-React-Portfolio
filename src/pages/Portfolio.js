@@ -5,7 +5,7 @@ import Jumbotron from '../components/Jumbotron';
 import ProjectCard from '../components/ProjectCard';
 import projects from '../projects.json';
 
-export default function Portfolio() {
+function Portfolio() {
   const displayProjects = projects.filter(pro => pro.show);
   return (
     <Col sm={12} md={10} lg={8}>
@@ -37,3 +37,5 @@ export default function Portfolio() {
     </Col>
   )
 }
+
+export default Portfolio;

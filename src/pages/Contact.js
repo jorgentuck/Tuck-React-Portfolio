@@ -4,7 +4,7 @@ import { H1, Hr } from '../components/Layout';
 import Jumbotron from '../components/Jumbotron';
 import ContactMe from '../components/ContactMe';
 
-const Contact = () => {
+function Contact() {
     return (
         <Col sm={12} md={10} lg={8}>
             <Jumbotron>
