@@ -11,7 +11,7 @@ export default function AboutMe() {
           className="img-fluid float-left mr-3 my-2"
         />
         <p>
-          I am currently the CRM Support Specialist working for Roadster. I grew up in Provo, UT, and currently live in Lehi, UT. I enjoy Off-Roading, working on my cars, video games, and learning.
+          I am currently a web developer for Modern Campus. I grew up in Provo, UT, and currently live in Lehi, UT. I enjoy Off-Roading, working on my cars, video games, and learning.
           </p>
         <p>
           My dream job is where I can work remotly and support my family,
@@ -29,7 +29,7 @@ export default function AboutMe() {
              and
             <a
             target="_blank"
-            href="https://github.com/jamesjtuckbc"
+            href="https://github.com/jorgentuck"
             rel="noreferrer"
           > GitHub</a
           >
